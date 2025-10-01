@@ -19,6 +19,8 @@ I followed a guide for setting up Jekyll and Ruby on CentOS and then using git I
 
 But I decided to take things a step further. Originally, I had my blog setup using only github pages, you can set these up for free on the site: username.github.io, so you can actually still see mine at <ukbajwa10.github.io>. But, since I'm learning Azure, I wanted to implement in Azure cloud. I created a Static Web App in Azure, I had a lot of trouble with it at first but then discovered you NEED to add Jekyll as an environment variable in the yaml workflow file. I then bought this domain from porkbun, configured the DNS in the Azure portal, and now I'm all set. What's really cool about this method is that the Azure Web App automatically pulls any changes I make on Github and pushes them to production. 
 
+TESTING
+
 
 
 ## Sources: 
